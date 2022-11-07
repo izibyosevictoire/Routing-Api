@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    width: 400px;
+    height: 100vh;
+    margin-left: 500px;
+    background-color:grey;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: black 10px 10px 10px 10px ;
+}
+.container{
+    padding-left: 65px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+.container button{
+    width: 200px ;
+    height: 30px;
+    background: black;
+    color: white;
+    border: black solid;
+}
+select{
+    height: 40px;
+    width: 200px;
+}

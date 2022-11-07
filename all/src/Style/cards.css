@@ -1,0 +1,50 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.cards{
+    width:300px;
+    padding: 20px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px gray;
+    cursor:pointer;
+}
+.image-box img{
+    width:300px;
+    height:200px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:grey;
+    outline: none;
+    border-radius: 2px;
+}
+.btn-add{
+
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(87, 177, 87);
+    outline: none;
+    border-radius: 2px;
+}
